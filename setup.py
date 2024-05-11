@@ -10,6 +10,7 @@ setup(
     url="https://github.com/syncsoftco/syncboard",
     packages=find_packages(),
     install_requires=[
+        "notion-client",
         "requests>=2.25.1",
         "python-dotenv>=0.19.2"
     ],
